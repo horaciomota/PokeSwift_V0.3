@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Feed: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Essa pagina vai todo o APP!")
         }
         .padding()
     }
@@ -21,6 +21,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Feed()
     }
 }

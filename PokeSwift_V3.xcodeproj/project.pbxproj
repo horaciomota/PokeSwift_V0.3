@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		83A561BA2ACB31A9000B5BAF /* PokeSwift_V3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561B92ACB31A9000B5BAF /* PokeSwift_V3App.swift */; };
-		83A561BC2ACB31AA000B5BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561BB2ACB31AA000B5BAF /* ContentView.swift */; };
+		83A561BC2ACB31AA000B5BAF /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561BB2ACB31AA000B5BAF /* Feed.swift */; };
 		83A561BE2ACB31AC000B5BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A561BD2ACB31AC000B5BAF /* Assets.xcassets */; };
 		83A561C12ACB31AC000B5BAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A561C02ACB31AC000B5BAF /* Preview Assets.xcassets */; };
+		83A561CB2ACB32D3000B5BAF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561CA2ACB32D3000B5BAF /* TabBar.swift */; };
+		83A561CD2ACB34CF000B5BAF /* Regioes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561CC2ACB34CF000B5BAF /* Regioes.swift */; };
+		83A561CF2ACB34EF000B5BAF /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561CE2ACB34EF000B5BAF /* Favoritos.swift */; };
+		83A561D12ACB357C000B5BAF /* ContaUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561D02ACB357C000B5BAF /* ContaUsuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83A561B62ACB31A9000B5BAF /* PokeSwift_V3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeSwift_V3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A561B92ACB31A9000B5BAF /* PokeSwift_V3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeSwift_V3App.swift; sourceTree = "<group>"; };
-		83A561BB2ACB31AA000B5BAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83A561BB2ACB31AA000B5BAF /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		83A561BD2ACB31AC000B5BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A561C02ACB31AC000B5BAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83A561CA2ACB32D3000B5BAF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		83A561CC2ACB34CF000B5BAF /* Regioes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regioes.swift; sourceTree = "<group>"; };
+		83A561CE2ACB34EF000B5BAF /* Favoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoritos.swift; sourceTree = "<group>"; };
+		83A561D02ACB357C000B5BAF /* ContaUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaUsuario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		83A561B82ACB31A9000B5BAF /* PokeSwift_V3 */ = {
 			isa = PBXGroup;
 			children = (
+				83A561C92ACB32AE000B5BAF /* View */,
+				83A561C72ACB3299000B5BAF /* Model */,
+				83A561C82ACB329E000B5BAF /* Service */,
 				83A561B92ACB31A9000B5BAF /* PokeSwift_V3App.swift */,
-				83A561BB2ACB31AA000B5BAF /* ContentView.swift */,
 				83A561BD2ACB31AC000B5BAF /* Assets.xcassets */,
 				83A561BF2ACB31AC000B5BAF /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				83A561C02ACB31AC000B5BAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83A561C72ACB3299000B5BAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83A561C82ACB329E000B5BAF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		83A561C92ACB32AE000B5BAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83A561BB2ACB31AA000B5BAF /* Feed.swift */,
+				83A561CE2ACB34EF000B5BAF /* Favoritos.swift */,
+				83A561CC2ACB34CF000B5BAF /* Regioes.swift */,
+				83A561D02ACB357C000B5BAF /* ContaUsuario.swift */,
+				83A561CA2ACB32D3000B5BAF /* TabBar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A561BC2ACB31AA000B5BAF /* ContentView.swift in Sources */,
+				83A561CB2ACB32D3000B5BAF /* TabBar.swift in Sources */,
+				83A561BC2ACB31AA000B5BAF /* Feed.swift in Sources */,
+				83A561D12ACB357C000B5BAF /* ContaUsuario.swift in Sources */,
+				83A561CD2ACB34CF000B5BAF /* Regioes.swift in Sources */,
+				83A561CF2ACB34EF000B5BAF /* Favoritos.swift in Sources */,
 				83A561BA2ACB31A9000B5BAF /* PokeSwift_V3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
