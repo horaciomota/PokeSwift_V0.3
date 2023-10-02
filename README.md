@@ -1,6 +1,9 @@
 # PokeSwift_V0.3
 Your ultimate Pokedex app built with Swift, MVVM architecture, and a RESTful API. Explore the world of Pokémon seamlessly, with detailed information and a clean, modular codebase. Gotta code 'em all!
 
+![my board file (Community)](https://github.com/horaciomota/PokeSwift_V0.3/assets/8496232/ee74d48d-8f14-4866-bd68-353d9df6c3ef)
+
+
 This sample app demonstrates:
 + Compositional layout for table and collection views 💾
 + Async image download and caching 🏞
@@ -19,11 +22,6 @@ Link: https://www.figma.com/community/file/1202971127473077147/pokedex-pokemon-a
 ### API USED
 
 JSON Endpoint - https://pokedex-bb36f.firebaseio.com/pokemon.json
-
-
-
-
-
 
 ### PREREQUISITES 
 - Swift 5.7+
