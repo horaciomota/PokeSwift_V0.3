@@ -46,6 +46,8 @@ struct Feed: View {
                         
                     }
                     
+                    PokemonCard()
+                    
                     Spacer()
                     
                 }
