@@ -19,6 +19,7 @@
 		83A561F62ACDE9D3000B5BAF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561F52ACDE9D2000B5BAF /* ApiService.swift */; };
 		83A561F92ACDED13000B5BAF /* LauchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561F82ACDED13000B5BAF /* LauchScreen.swift */; };
 		83A561FC2ACDF632000B5BAF /* ListOfPokemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561FB2ACDF632000B5BAF /* ListOfPokemons.swift */; };
+		83A562002ACDFE32000B5BAF /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561FF2ACDFE32000B5BAF /* PokemonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		83A561F52ACDE9D2000B5BAF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		83A561F82ACDED13000B5BAF /* LauchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchScreen.swift; sourceTree = "<group>"; };
 		83A561FB2ACDF632000B5BAF /* ListOfPokemons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPokemons.swift; sourceTree = "<group>"; };
+		83A561FF2ACDFE32000B5BAF /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		83A561C72ACB3299000B5BAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				83A561FF2ACDFE32000B5BAF /* PokemonModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				83A561CB2ACB32D3000B5BAF /* TabBar.swift in Sources */,
 				83A561BC2ACB31AA000B5BAF /* Feed.swift in Sources */,
+				83A562002ACDFE32000B5BAF /* PokemonModel.swift in Sources */,
 				83A561F92ACDED13000B5BAF /* LauchScreen.swift in Sources */,
 				83A561D12ACB357C000B5BAF /* ContaUsuario.swift in Sources */,
 				83A561FC2ACDF632000B5BAF /* ListOfPokemons.swift in Sources */,

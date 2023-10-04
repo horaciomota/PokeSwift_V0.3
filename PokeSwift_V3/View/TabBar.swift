@@ -31,11 +31,11 @@ struct TabBar: View {
                     Text("Favoritos")
                 }
             
-//            ContaUsuario()
-//                .tabItem {
-//                    Image(systemName: "person.circle")
-//                    Text("Conta")
-//                }
+            ContaUsuario()
+                .tabItem {
+                    Image(systemName: "person.circle")
+                    Text("Conta")
+                }
             
         }
 
