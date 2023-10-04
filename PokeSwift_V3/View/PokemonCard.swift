@@ -19,7 +19,6 @@ struct PokemonCard: View {
                     .font(.system(size: 12, weight: .semibold))
 
                 Text("Aggron")
-                    .padding(.top, 2)
                     .font(.system(size: 21, weight: .bold))
                 
                 HStack {
@@ -39,22 +38,31 @@ struct PokemonCard: View {
                         .cornerRadius(30)
 
                 }
+                .padding(.bottom, 2)
             }
-            .padding(.top)
-            .padding(.bottom)
+            .padding(.top, 2)
             .padding(.horizontal)
             
             Spacer()
             
-            VStack {
-                Image("Poke")
-                    .resizable()
-                    .aspectRatio(1, contentMode: .fit)
+            ZStack {
+                VStack {
+                    Image("Poke")
+                        .resizable()
+                        .frame(width: 126, height: 102)
+                        .aspectRatio(1, contentMode: .fit)
+                }
+                
+                Image(systemName: "heart.circle")
+                    .font(.system(size: 25))
+                    .foregroundColor(.white)
+                    .font(.system(size: 40))
+                    .offset(x: 40, y: -30)
             }
-            
+
             
         }
-        .frame(width: 328)
+        .frame(width: 328, height: 102)
         .background(Color.blue.opacity(0.2))
         .cornerRadius(18)
 

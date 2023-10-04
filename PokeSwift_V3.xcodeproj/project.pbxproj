@@ -16,6 +16,8 @@
 		83A561CF2ACB34EF000B5BAF /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561CE2ACB34EF000B5BAF /* Favoritos.swift */; };
 		83A561D12ACB357C000B5BAF /* ContaUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561D02ACB357C000B5BAF /* ContaUsuario.swift */; };
 		83A561F32ACC9CA0000B5BAF /* PokemonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561F22ACC9C9F000B5BAF /* PokemonCard.swift */; };
+		83A561F62ACDE9D3000B5BAF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561F52ACDE9D2000B5BAF /* ApiService.swift */; };
+		83A561F92ACDED13000B5BAF /* LauchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A561F82ACDED13000B5BAF /* LauchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		83A561CE2ACB34EF000B5BAF /* Favoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoritos.swift; sourceTree = "<group>"; };
 		83A561D02ACB357C000B5BAF /* ContaUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaUsuario.swift; sourceTree = "<group>"; };
 		83A561F22ACC9C9F000B5BAF /* PokemonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCard.swift; sourceTree = "<group>"; };
+		83A561F52ACDE9D2000B5BAF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		83A561F82ACDED13000B5BAF /* LauchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,12 @@
 		83A561B82ACB31A9000B5BAF /* PokeSwift_V3 */ = {
 			isa = PBXGroup;
 			children = (
+				83A561F42ACDE9A8000B5BAF /* Services */,
 				83A561C92ACB32AE000B5BAF /* View */,
+				83A561F72ACDEA6B000B5BAF /* Controllers */,
 				83A561C72ACB3299000B5BAF /* Model */,
-				83A561C82ACB329E000B5BAF /* Service */,
 				83A561B92ACB31A9000B5BAF /* PokeSwift_V3App.swift */,
+				83A561F82ACDED13000B5BAF /* LauchScreen.swift */,
 				83A561BD2ACB31AC000B5BAF /* Assets.xcassets */,
 				83A561BF2ACB31AC000B5BAF /* Preview Content */,
 			);
@@ -86,13 +92,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		83A561C82ACB329E000B5BAF /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		83A561C92ACB32AE000B5BAF /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +103,21 @@
 				83A561F22ACC9C9F000B5BAF /* PokemonCard.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		83A561F42ACDE9A8000B5BAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				83A561F52ACDE9D2000B5BAF /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		83A561F72ACDEA6B000B5BAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +192,12 @@
 			files = (
 				83A561CB2ACB32D3000B5BAF /* TabBar.swift in Sources */,
 				83A561BC2ACB31AA000B5BAF /* Feed.swift in Sources */,
+				83A561F92ACDED13000B5BAF /* LauchScreen.swift in Sources */,
 				83A561D12ACB357C000B5BAF /* ContaUsuario.swift in Sources */,
 				83A561CD2ACB34CF000B5BAF /* Regioes.swift in Sources */,
 				83A561CF2ACB34EF000B5BAF /* Favoritos.swift in Sources */,
 				83A561BA2ACB31A9000B5BAF /* PokeSwift_V3App.swift in Sources */,
+				83A561F62ACDE9D3000B5BAF /* ApiService.swift in Sources */,
 				83A561F32ACC9CA0000B5BAF /* PokemonCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
