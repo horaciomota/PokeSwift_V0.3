@@ -48,27 +48,20 @@ struct Feed: View {
                     }
                     .padding(.top, 8)
                     .padding(.bottom, 4)
-
                     
+                    ListOfPokemons()
                     
-                    PokemonCard()
-                    PokemonCard()
-                    PokemonCard()
-                    PokemonCard()
-
-
-
-                    
-                    Spacer()
+            
+                    Spacer() //Esse spacer è necessario para nao sobrepor a tabbar
                     
                 }
             }
-
+            
         }
         .searchable(text: $searchAPokemon, prompt: "Procure seu Pokemon...")
         .padding(.horizontal)
-
-       
+        
+        
         
     }
 }
@@ -82,7 +75,7 @@ struct ContentView_Previews: PreviewProvider {
 struct SearchableTextFieldStyle: ViewModifier {
     let cornerRadius: CGFloat
     let fontSize: CGFloat
-
+    
     func body(content: Content) -> some View {
         content
             .font(.system(size: fontSize)) // Define o tamanho da fonte
