@@ -11,9 +11,10 @@ struct Feed: View {
             
             NavigationView() {
                 VStack {
+                    //DropDown Filter menu
                     HStack() {
                         Button(action: {
-                            // Colocar Action de dropdown menu
+                            // *** Colocar Action de dropdown menu
                         }) {
                             HStack {
                                 Text("Todos os tipos")
@@ -45,6 +46,9 @@ struct Feed: View {
                         .cornerRadius(30)
                         
                     }
+                    .padding(.top, 8)
+                    .padding(.bottom, 4)
+
                     
                     
                     PokemonCard()
@@ -61,7 +65,7 @@ struct Feed: View {
             }
 
         }
-        .searchable(text: $searchAPokemon, prompt: "Procure seu Pokemon")
+        .searchable(text: $searchAPokemon, prompt: "Procure seu Pokemon...")
         .padding(.horizontal)
 
        
